@@ -1,0 +1,53 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: grid;
+    place-items: center;
+}
+.inputs_wrapper {
+    margin-top: 1rem;
+}
+.inputs_wrapper input {
+    outline: none;
+    width: 120px;
+    height: 30px;
+    border-radius: 8px;
+    border: 1px solid #535353;
+}
+.inputs_wrapper select {
+    outline: none;
+    width: 80px;
+    height: 30px;
+    border-radius: 8px;
+    border: 1px solid #535353;
+}
+.inputs_wrapper button {
+        min-width: 80px;
+        height: 30px;
+        color: #fff;
+        padding: 5px 10px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        position: relative;
+        display: inline-block;
+        outline: none;
+        border-radius: 20px;
+        border: 2px solid #71c4ef;
+        background: #71c4ef;
+}
+.inputs_wrapper button:hover {
+    background: #fff;
+    color: #71c4ef
+}
+.counter_div {
+    margin-top: 1rem;
+    width: 427px;
+    word-break: break-all;
+    color: #313d44;
+}
